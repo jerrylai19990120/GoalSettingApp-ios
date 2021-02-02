@@ -15,6 +15,8 @@
 		92A5A3A925C91E69002BC5FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92A5A3A825C91E69002BC5FA /* Assets.xcassets */; };
 		92A5A3AC25C91E69002BC5FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92A5A3AA25C91E69002BC5FA /* LaunchScreen.storyboard */; };
 		92A5A3B825CA11A1002BC5FA /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A5A3B725CA11A1002BC5FA /* GoalCell.swift */; };
+		92A5A3BA25CA15A9002BC5FA /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A5A3B925CA15A9002BC5FA /* GoalType.swift */; };
+		92A5A3BC25CA1912002BC5FA /* CreateGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A5A3BB25CA1912002BC5FA /* CreateGoalVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		92A5A3AB25C91E69002BC5FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92A5A3AD25C91E69002BC5FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92A5A3B725CA11A1002BC5FA /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
+		92A5A3B925CA15A9002BC5FA /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
+		92A5A3BB25CA1912002BC5FA /* CreateGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				92A5A3A025C91E68002BC5FA /* GoalsVC.swift */,
+				92A5A3BB25CA1912002BC5FA /* CreateGoalVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -94,6 +99,7 @@
 		92A5A3B525C91EE0002BC5FA /* Enums */ = {
 			isa = PBXGroup;
 			children = (
+				92A5A3B925CA15A9002BC5FA /* GoalType.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -178,7 +184,9 @@
 			files = (
 				92A5A3A125C91E68002BC5FA /* GoalsVC.swift in Sources */,
 				92A5A39D25C91E68002BC5FA /* AppDelegate.swift in Sources */,
+				92A5A3BA25CA15A9002BC5FA /* GoalType.swift in Sources */,
 				92A5A3A725C91E68002BC5FA /* Goal_Manager.xcdatamodeld in Sources */,
+				92A5A3BC25CA1912002BC5FA /* CreateGoalVC.swift in Sources */,
 				92A5A3B825CA11A1002BC5FA /* GoalCell.swift in Sources */,
 				92A5A39F25C91E68002BC5FA /* SceneDelegate.swift in Sources */,
 			);
