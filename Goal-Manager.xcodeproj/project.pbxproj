@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		92A5A39925C91E68002BC5FA /* Goal-Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Goal-Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92A5A39925C91E68002BC5FA /* Goal Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Goal Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92A5A39C25C91E68002BC5FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92A5A39E25C91E68002BC5FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		92A5A3A025C91E68002BC5FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		92A5A39A25C91E68002BC5FA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				92A5A39925C91E68002BC5FA /* Goal-Manager.app */,
+				92A5A39925C91E68002BC5FA /* Goal Manager.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,6 +58,10 @@
 		92A5A39B25C91E68002BC5FA /* Goal-Manager */ = {
 			isa = PBXGroup;
 			children = (
+				92A5A3B625C91EE5002BC5FA /* Extensions */,
+				92A5A3B525C91EE0002BC5FA /* Enums */,
+				92A5A3B425C91EDC002BC5FA /* Views */,
+				92A5A3B325C91ED4002BC5FA /* Controllers */,
 				92A5A39C25C91E68002BC5FA /* AppDelegate.swift */,
 				92A5A39E25C91E68002BC5FA /* SceneDelegate.swift */,
 				92A5A3A025C91E68002BC5FA /* ViewController.swift */,
@@ -68,6 +72,34 @@
 				92A5A3A525C91E68002BC5FA /* Goal_Manager.xcdatamodeld */,
 			);
 			path = "Goal-Manager";
+			sourceTree = "<group>";
+		};
+		92A5A3B325C91ED4002BC5FA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		92A5A3B425C91EDC002BC5FA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		92A5A3B525C91EE0002BC5FA /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		92A5A3B625C91EE5002BC5FA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,7 +119,7 @@
 			);
 			name = "Goal-Manager";
 			productName = "Goal-Manager";
-			productReference = 92A5A39925C91E68002BC5FA /* Goal-Manager.app */;
+			productReference = 92A5A39925C91E68002BC5FA /* Goal Manager.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -296,7 +328,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jerry-lai.Goal-Manager";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Goal Manager";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -314,7 +346,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jerry-lai.Goal-Manager";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Goal Manager";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
