@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  GoalsVC.swift
 //  Goal-Manager
 //
 //  Created by Jerry Lai on 2021-02-02.
@@ -8,13 +8,18 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class GoalsVC: UIViewController {
+    
+    
+    @IBOutlet weak var tableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func addGoalPressed(_ sender: Any) {
+    }
+    
 }
 
