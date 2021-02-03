@@ -178,7 +178,7 @@
         <!--Create GoalVC-->
         <scene sceneID="y5V-Ln-DeV">
             <objects>
-                <viewController id="pso-QG-LSJ" customClass="CreateGoalVC" customModule="Goal_Manager" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CreateGoalVC" id="pso-QG-LSJ" customClass="CreateGoalVC" customModule="Goal_Manager" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Egi-Zh-jEu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
