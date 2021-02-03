@@ -96,17 +96,20 @@
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="Byk-kq-Jee">
                                                     <rect key="frame" x="20" y="15" width="315" height="40.5"/>
                                                     <subviews>
-                                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="mTj-BI-pXR">
-                                                            <rect key="frame" x="0.0" y="0.0" width="218" height="20.5"/>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="mTj-BI-pXR">
+                                                            <rect key="frame" x="0.0" y="0.0" width="216.5" height="20.5"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Goal:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="a03-Ad-X0y">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="42.5" height="20.5"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="50" height="20.5"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="width" constant="50" id="mhM-QN-KCz"/>
+                                                                    </constraints>
                                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Run 10km every day" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="4It-dI-xTe">
-                                                                    <rect key="frame" x="54.5" y="0.0" width="163.5" height="20.5"/>
+                                                                    <rect key="frame" x="53" y="0.0" width="163.5" height="20.5"/>
                                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
@@ -132,18 +135,39 @@
                                                         </stackView>
                                                     </subviews>
                                                 </stackView>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YCv-ff-mVQ">
+                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="70"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GOAL COMPLETE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YCx-ga-gnZ">
+                                                            <rect key="frame" x="72.5" y="16.5" width="269.5" height="37"/>
+                                                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="31"/>
+                                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.0" alpha="0.74807363013698636" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <constraints>
+                                                        <constraint firstItem="YCx-ga-gnZ" firstAttribute="centerX" secondItem="YCv-ff-mVQ" secondAttribute="centerX" id="EAy-L5-roW"/>
+                                                        <constraint firstItem="YCx-ga-gnZ" firstAttribute="centerY" secondItem="YCv-ff-mVQ" secondAttribute="centerY" id="vcQ-Uo-wO2"/>
+                                                    </constraints>
+                                                </view>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstItem="YCv-ff-mVQ" firstAttribute="top" secondItem="mnw-Vz-owO" secondAttribute="top" id="8zF-7I-Xow"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="Byk-kq-Jee" secondAttribute="bottom" constant="3.5" id="D5N-VH-cZm"/>
                                                 <constraint firstItem="Ynx-xL-9K3" firstAttribute="top" secondItem="mnw-Vz-owO" secondAttribute="top" constant="11" id="QQ5-iG-Vij"/>
                                                 <constraint firstAttribute="bottom" secondItem="Ynx-xL-9K3" secondAttribute="bottom" constant="11" id="RxC-Zt-x6M"/>
+                                                <constraint firstItem="YCv-ff-mVQ" firstAttribute="leading" secondItem="mnw-Vz-owO" secondAttribute="leading" id="VNf-PG-wIC"/>
                                                 <constraint firstAttribute="trailing" secondItem="Ynx-xL-9K3" secondAttribute="trailing" constant="14" id="X24-wk-yZl"/>
+                                                <constraint firstAttribute="bottom" secondItem="YCv-ff-mVQ" secondAttribute="bottom" id="dMc-Dz-Skg"/>
+                                                <constraint firstAttribute="trailing" secondItem="YCv-ff-mVQ" secondAttribute="trailing" id="fBN-mX-w1E"/>
                                                 <constraint firstItem="Ynx-xL-9K3" firstAttribute="leading" secondItem="Byk-kq-Jee" secondAttribute="trailing" constant="10" id="g4X-ct-eca"/>
                                                 <constraint firstItem="Byk-kq-Jee" firstAttribute="top" secondItem="mnw-Vz-owO" secondAttribute="topMargin" constant="4" id="gWW-TH-Lae"/>
                                                 <constraint firstItem="Byk-kq-Jee" firstAttribute="leading" secondItem="mnw-Vz-owO" secondAttribute="leadingMargin" id="ijh-HS-KoO"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="completionView" destination="YCv-ff-mVQ" id="TUw-sm-CFI"/>
                                             <outlet property="goalDescLbl" destination="4It-dI-xTe" id="04h-lo-V4y"/>
                                             <outlet property="goalProgressLbl" destination="Ynx-xL-9K3" id="k5z-wK-aTU"/>
                                             <outlet property="goalTypeLbl" destination="H3g-zc-m1J" id="203-jl-yjV"/>
