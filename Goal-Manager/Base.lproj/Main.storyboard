@@ -362,6 +362,7 @@
                                         <rect key="frame" x="22" y="77" width="14" height="27.5"/>
                                         <state key="normal" image="back"/>
                                         <connections>
+                                            <action selector="backBtnPressed:" destination="kxw-oD-NHr" eventType="touchUpInside" id="8tF-Ry-5xn"/>
                                             <action selector="backBtnPressed:" destination="pso-QG-LSJ" eventType="touchUpInside" id="DEW-QM-dFk"/>
                                             <action selector="backBtnPressed:" destination="EzX-bC-TzJ" eventType="touchUpInside" id="jfv-fq-aUb"/>
                                         </connections>

@@ -37,7 +37,7 @@ class CreateGoalVC: UIViewController,UITextViewDelegate {
             
             finishGoalVC.modalPresentationStyle = .fullScreen
             
-            presentDetail(finishGoalVC)
+            presentingViewController?.presentSecondaryDetail(finishGoalVC)
             
         }
     }
