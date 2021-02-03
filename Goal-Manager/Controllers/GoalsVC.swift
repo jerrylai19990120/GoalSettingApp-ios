@@ -24,7 +24,7 @@ class GoalsVC: UIViewController {
 
     @IBAction func addGoalPressed(_ sender: Any) {
         guard let createGoalVC = storyboard?.instantiateViewController(withIdentifier: "CreateGoalVC") else {return}
-        
+        createGoalVC.modalPresentationStyle = .fullScreen
         presentDetail(createGoalVC)
         
     }

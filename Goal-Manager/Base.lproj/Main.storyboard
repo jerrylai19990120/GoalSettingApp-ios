@@ -44,7 +44,6 @@
                                         <state key="normal" image="addGoal"/>
                                         <connections>
                                             <action selector="addGoalPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pK1-rY-rdc"/>
-                                            <segue destination="pso-QG-LSJ" kind="presentation" modalPresentationStyle="fullScreen" id="vGj-hY-R2t"/>
                                         </connections>
                                     </button>
                                 </subviews>

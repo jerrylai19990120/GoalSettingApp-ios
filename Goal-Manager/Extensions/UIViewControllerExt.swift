@@ -16,6 +16,7 @@ extension UIViewController {
         transition.duration = 0.3
         transition.type = .push
         transition.subtype = .fromRight
+        
         self.view.window?.layer.add(transition, forKey: kCATransition)
         
         present(viewController, animated: false, completion: nil)
